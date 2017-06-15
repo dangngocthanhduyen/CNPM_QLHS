@@ -53,6 +53,16 @@ namespace QuanLyHocSinh_OnedotZero
             Thaydoi.ShowDialog();
         }
 
+        private void bt_Thoat_Click(object sender, EventArgs e)
+        {
+            DialogResult traloi;
+            traloi = MessageBox.Show("Bạn thật sự muốn thoát khỏi phần mềm?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (traloi == DialogResult.Yes)
+            {
+                Application.ExitThread();
+            }
+        }
+
 
 
 

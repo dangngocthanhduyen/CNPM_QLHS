@@ -473,6 +473,7 @@
             this.bt_Thoat.TabIndex = 36;
             this.bt_Thoat.Text = "Thoát";
             this.bt_Thoat.UseVisualStyleBackColor = true;
+            this.bt_Thoat.Click += new System.EventHandler(this.bt_Thoat_Click);
             // 
             // frm_ThayDoiQuyDinh
             // 
@@ -485,6 +486,7 @@
             this.Controls.Add(this.grp_QuiDinh4);
             this.Controls.Add(this.grp_QuiDinh2);
             this.Controls.Add(this.grp_QuiDinh1);
+            this.MaximizeBox = false;
             this.Name = "frm_ThayDoiQuyDinh";
             this.Text = "Thay đổi quy định";
             ((System.ComponentModel.ISupportInitialize)(this.nud_TuoiToiThieu)).EndInit();

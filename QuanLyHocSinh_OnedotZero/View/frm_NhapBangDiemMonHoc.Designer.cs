@@ -151,6 +151,7 @@
             this.bt_Thoat.TabIndex = 16;
             this.bt_Thoat.Text = "Thoát";
             this.bt_Thoat.UseVisualStyleBackColor = true;
+            this.bt_Thoat.Click += new System.EventHandler(this.bt_Thoat_Click);
             // 
             // grp_BangDiem
             // 
@@ -214,6 +215,7 @@
             this.Controls.Add(this.bt_Thoat);
             this.Controls.Add(this.bt_Luu);
             this.Controls.Add(this.bt_Sua);
+            this.MaximizeBox = false;
             this.Name = "frm_NhapBangDiemMonHoc";
             this.Text = "Nhập bảng điểm môn học";
             this.grp_BangDiem.ResumeLayout(false);

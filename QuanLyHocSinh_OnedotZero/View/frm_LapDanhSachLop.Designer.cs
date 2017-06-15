@@ -44,12 +44,12 @@
             this.cbo_HoTen = new System.Windows.Forms.ComboBox();
             this.gc_DanhSachHocSinhLop = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.grp_DanhSachHocSinh = new System.Windows.Forms.GroupBox();
-            this.txt_Lop = new System.Windows.Forms.TextBox();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.grp_DanhSachHocSinh = new System.Windows.Forms.GroupBox();
+            this.txt_Lop = new System.Windows.Forms.TextBox();
             this.grp_ThongTinHocSinh.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gc_DanhSachHocSinhLop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
@@ -214,24 +214,6 @@
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
-            // grp_DanhSachHocSinh
-            // 
-            this.grp_DanhSachHocSinh.Controls.Add(this.txt_Lop);
-            this.grp_DanhSachHocSinh.Controls.Add(this.gc_DanhSachHocSinhLop);
-            this.grp_DanhSachHocSinh.Location = new System.Drawing.Point(17, 203);
-            this.grp_DanhSachHocSinh.Name = "grp_DanhSachHocSinh";
-            this.grp_DanhSachHocSinh.Size = new System.Drawing.Size(561, 217);
-            this.grp_DanhSachHocSinh.TabIndex = 16;
-            this.grp_DanhSachHocSinh.TabStop = false;
-            this.grp_DanhSachHocSinh.Text = "Danh sách học sinh lớp: ";
-            // 
-            // txt_Lop
-            // 
-            this.txt_Lop.Location = new System.Drawing.Point(133, 0);
-            this.txt_Lop.Name = "txt_Lop";
-            this.txt_Lop.Size = new System.Drawing.Size(75, 20);
-            this.txt_Lop.TabIndex = 16;
-            // 
             // gridColumn1
             // 
             this.gridColumn1.Caption = "Họ Tên";
@@ -264,6 +246,24 @@
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
             // 
+            // grp_DanhSachHocSinh
+            // 
+            this.grp_DanhSachHocSinh.Controls.Add(this.txt_Lop);
+            this.grp_DanhSachHocSinh.Controls.Add(this.gc_DanhSachHocSinhLop);
+            this.grp_DanhSachHocSinh.Location = new System.Drawing.Point(17, 203);
+            this.grp_DanhSachHocSinh.Name = "grp_DanhSachHocSinh";
+            this.grp_DanhSachHocSinh.Size = new System.Drawing.Size(561, 217);
+            this.grp_DanhSachHocSinh.TabIndex = 16;
+            this.grp_DanhSachHocSinh.TabStop = false;
+            this.grp_DanhSachHocSinh.Text = "Danh sách học sinh lớp: ";
+            // 
+            // txt_Lop
+            // 
+            this.txt_Lop.Location = new System.Drawing.Point(133, 0);
+            this.txt_Lop.Name = "txt_Lop";
+            this.txt_Lop.Size = new System.Drawing.Size(75, 20);
+            this.txt_Lop.TabIndex = 16;
+            // 
             // frm_LapDanhSachLop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -278,6 +278,7 @@
             this.Controls.Add(this.bt_Luu);
             this.Controls.Add(this.cbo_SiSo);
             this.Controls.Add(this.lbl_SiSo);
+            this.MaximizeBox = false;
             this.Name = "frm_LapDanhSachLop";
             this.Text = "Lập danh sách lớp";
             this.Load += new System.EventHandler(this.frm_LapDanhSachLop_Load);

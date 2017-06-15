@@ -181,6 +181,7 @@
             this.Controls.Add(this.bt_TimKiem);
             this.Controls.Add(this.grp_ThongTinTimKiem);
             this.Controls.Add(this.grp_PhamViTimKiem);
+            this.MaximizeBox = false;
             this.Name = "frm_TraCuuHocSinh";
             this.Text = "Tra cứu học sinh";
             this.Load += new System.EventHandler(this.frm_TraCuuHocSinh_Load);

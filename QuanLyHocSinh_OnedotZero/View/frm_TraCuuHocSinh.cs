@@ -73,8 +73,5 @@ namespace QuanLyHocSinh_OnedotZero
         }
 
         
-
-   
-        
     }
 }

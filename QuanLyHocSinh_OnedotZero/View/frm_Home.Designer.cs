@@ -35,6 +35,7 @@
             this.btn_LapDanhSachLop = new System.Windows.Forms.Button();
             this.btn_ThayDoiQuiDinh = new System.Windows.Forms.Button();
             this.btn_LapBaoCaoTongKet = new System.Windows.Forms.Button();
+            this.bt_Thoat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_TiepNhanHocSinh
@@ -104,6 +105,16 @@
             this.btn_LapBaoCaoTongKet.UseVisualStyleBackColor = true;
             this.btn_LapBaoCaoTongKet.Click += new System.EventHandler(this.btn_Lapbaocao_Click);
             // 
+            // bt_Thoat
+            // 
+            this.bt_Thoat.Location = new System.Drawing.Point(668, 656);
+            this.bt_Thoat.Name = "bt_Thoat";
+            this.bt_Thoat.Size = new System.Drawing.Size(83, 29);
+            this.bt_Thoat.TabIndex = 6;
+            this.bt_Thoat.Text = "Thoát";
+            this.bt_Thoat.UseVisualStyleBackColor = true;
+            this.bt_Thoat.Click += new System.EventHandler(this.bt_Thoat_Click);
+            // 
             // frm_Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -111,12 +122,14 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(791, 733);
+            this.Controls.Add(this.bt_Thoat);
             this.Controls.Add(this.btn_LapBaoCaoTongKet);
             this.Controls.Add(this.btn_ThayDoiQuiDinh);
             this.Controls.Add(this.btn_LapDanhSachLop);
             this.Controls.Add(this.btn_TraCuuHocSinh);
             this.Controls.Add(this.btn_NhapBangDiemMonHoc);
             this.Controls.Add(this.btn_TiepNhanHocSinh);
+            this.MaximizeBox = false;
             this.Name = "frm_Home";
             this.Text = "Quản lý học sinh";
             this.ResumeLayout(false);
@@ -131,6 +144,7 @@
         private System.Windows.Forms.Button btn_LapDanhSachLop;
         private System.Windows.Forms.Button btn_ThayDoiQuiDinh;
         private System.Windows.Forms.Button btn_LapBaoCaoTongKet;
+        private System.Windows.Forms.Button bt_Thoat;
     }
 }
 

@@ -233,6 +233,7 @@
             this.bt_Thoat.TabIndex = 12;
             this.bt_Thoat.Text = "Thoát";
             this.bt_Thoat.UseVisualStyleBackColor = true;
+            this.bt_Thoat.Click += new System.EventHandler(this.bt_Thoat_Click);
             // 
             // bt_XuatFileMon
             // 
@@ -292,6 +293,7 @@
             this.Controls.Add(this.dgv_BaoCaoTongKetMon);
             this.Controls.Add(this.lbl_BaoCaoTongKetHocKy);
             this.Controls.Add(this.lbl_BaoCaoTongKetMon);
+            this.MaximizeBox = false;
             this.Name = "frm_LapBaoCaoTongKet";
             this.Text = "Lập báo cáo tổng kết";
             ((System.ComponentModel.ISupportInitialize)(this.dgv_BaoCaoTongKetMon)).EndInit();
