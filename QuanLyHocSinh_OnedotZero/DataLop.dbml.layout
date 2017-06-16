@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataLop">
+  <DataContextMoniker Name="/DataLopDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a30755c6-6bd9-4b91-8b9a-03bfecb16294" absoluteBounds="3.5, 4.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataLopDataContext/BANGDIEMMONHOC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9f9dfb5a-194b-401a-920e-c57be671fd02" absoluteBounds="3.515, 5.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9dd45aaf-652c-4fbe-9e5a-a84bf1c54c30" absoluteBounds="0.75, 5.375, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/DataLopDataContext/MON" />
+      <nestedChildShapes>
+        <elementListCompartment Id="47380b8a-a991-4348-90e7-93cd7110cb84" absoluteBounds="0.765, 5.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cc76fd1d-72da-4e5a-b962-39144f96abd2" absoluteBounds="0.75, 3.375, 2, 1.193992513020834">
+      <DataClassMoniker Name="/DataLopDataContext/HOCKI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9c412a27-8539-4b81-9003-508d4b29f42e" absoluteBounds="0.765, 3.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="35e69e4d-5a4a-45cf-a0e1-c5869e440315" absoluteBounds="6.25, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataLopDataContext/HOCSINH" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8c6849e6-cff3-4baa-a059-898185b67f77" absoluteBounds="6.265, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="861e34e0-8bc7-4724-bb96-525e3687091a" absoluteBounds="0.75, 1.375, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DataLopDataContext/KHOI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3355adff-1ee2-474b-8cbd-94b2982f4430" absoluteBounds="0.765, 1.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8a1dfbe2-f05f-4fd2-8558-e7c9927f4d0b" absoluteBounds="3.5, 1.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataLopDataContext/LOP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dda17401-655a-4d28-9e55-d9c2a643849a" absoluteBounds="3.515, 1.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 5.97199625651042); (3.5 : 5.97199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataLopDataContext/MON/MON_BANGDIEMMONHOC" />
+      <nodes>
+        <classShapeMoniker Id="9dd45aaf-652c-4fbe-9e5a-a84bf1c54c30" />
+        <classShapeMoniker Id="a30755c6-6bd9-4b91-8b9a-03bfecb16294" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.97199625651042); (4.5 : 3.97199625651042); (4.5 : 4.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataLopDataContext/HOCKI/HOCKI_BANGDIEMMONHOC" />
+      <nodes>
+        <classShapeMoniker Id="cc76fd1d-72da-4e5a-b962-39144f96abd2" />
+        <classShapeMoniker Id="a30755c6-6bd9-4b91-8b9a-03bfecb16294" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.03929768880208); (6.25 : 2.03929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataLopDataContext/LOP/LOP_HOCSINH" />
+      <nodes>
+        <classShapeMoniker Id="8a1dfbe2-f05f-4fd2-8558-e7c9927f4d0b" />
+        <classShapeMoniker Id="35e69e4d-5a4a-45cf-a0e1-c5869e440315" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.97199625651042); (3.5 : 1.97199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataLopDataContext/KHOI/KHOI_LOP" />
+      <nodes>
+        <classShapeMoniker Id="861e34e0-8bc7-4724-bb96-525e3687091a" />
+        <classShapeMoniker Id="8a1dfbe2-f05f-4fd2-8558-e7c9927f4d0b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
